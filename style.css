@@ -180,3 +180,38 @@ p{
 
 
     
+
+
+
+.flexfooter{
+    display: flex;
+   width: 1200px;
+   justify-content: center;
+   padding: 10%;
+   margin-left: 10%;
+   margin: 5% 5% 5% 25%;
+   border: solid;
+   
+}
+
+.divsecf{
+    color: black;
+    border: salmon;
+}
+.pf{
+    color: black;
+
+}
+
+.flexfooterp{
+    display: flex;
+ 
+   justify-content: center;
+   align-items: center;
+   padding: 10%;
+   margin-left: 10%;
+   margin: 5% 15% 5% 10%;
+   border: solid;
+   height: 100px;
+   
+}
