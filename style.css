@@ -1,14 +1,61 @@
 *{
     margin: 0;
     padding: 0;
+
 }
+
+nav{
+    background: white;
+    height: 45%;
+    display: flex;
+    justify-content: flex-end;
+                      
+}
+
+
+ul {
+   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    text-decoration:none;
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    
+    margin-right: 2%;
+    width: 100%;
+    
+    
+} 
+
+ul li{
+    
+    margin: 15px;
+    color: black;
+    
+    
+    
+}
+
+.img-menu{
+    margin-top: 1px;
+    position: absolute;
+    top: 10px;
+    margin-right: 90%;
+}
+
+
+
 .gridpe{
     display: grid;
-    background-color: darkgrey;
+    background-color: white;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr 0.5fr;
+    
     justify-content: center;
     align-items: center;
+    margin: 1% auto;
+    
     
     grid-template-areas: 
     "hea hea hea"
@@ -25,6 +72,7 @@ header{
     height: 853px;
     width: 1280px;
     justify-self: center;
+    margin-top: none;
 
 }
 
@@ -44,18 +92,24 @@ header{
 .sectiona{
     display: flex;
     justify-content: space-evenly;
-    
+    margin: none;
     background-color: white;
     grid-area: seca;
+    margin-top: 1%;
+    margin-bottom:1% ;
+   
 }
 .sectionb{
     display: flex;
     background-color: black;
     grid-area: secb;
     justify-content: space-around;
-    color: aqua;
+    color: white;
     height: 350px;
+    margin-top: 1%;
+    margin-bottom:1% ;
     
+        
     
 }
 
@@ -67,6 +121,7 @@ header{
     background-size: cover;
     background-position: center;
     margin: 5px 5px 5px 5px ;
+   
      
     
 }
@@ -79,6 +134,8 @@ header{
     background-size: cover;
     background-position: center;
     margin: 5px 5px 5px 5px ;
+    
+
     
    
 }
@@ -104,3 +161,22 @@ p{
 
 
 }
+
+.imagen{
+    width: 100%;
+}
+.imagen img{
+    width: 100%;
+}
+
+.gale{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1%;
+    row-gap: 1%;
+}
+
+
+    
